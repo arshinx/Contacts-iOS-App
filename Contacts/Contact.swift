@@ -22,3 +22,20 @@ struct Contact {
     var favorite: Bool
 }
 
+extension Contact {
+    
+    struct Key {
+        static let firstName = "firstName"
+        static let lastName = "lastName"
+        static let phone = "phoneNumber"
+        static let email = "email"
+        static let street = "streetAddress"
+        static let city = "city"
+        static let state = "state"
+        static let zip = "zip"
+        static let image = "avatarName"
+    }
+    
+    
+}
+

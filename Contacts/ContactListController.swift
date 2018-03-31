@@ -36,6 +36,7 @@ class ContactListController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath)
         let contact = contacts[indexPath.row]
         cell.textLabel?.text = contact.firstName
+        cell.detailTextLabel?.text = contact.lastName
         cell.imageView?.image = contact.image
         return cell
     }

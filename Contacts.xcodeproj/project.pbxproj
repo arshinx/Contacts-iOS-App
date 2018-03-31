@@ -13,6 +13,8 @@
 		73A4D731206F35BC00DDAE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A4D72F206F35BC00DDAE4C /* Main.storyboard */; };
 		73A4D733206F35BC00DDAE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A4D732206F35BC00DDAE4C /* Assets.xcassets */; };
 		73A4D736206F35BC00DDAE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A4D734206F35BC00DDAE4C /* LaunchScreen.storyboard */; };
+		73A4D73E206F39CC00DDAE4C /* ContactsDB.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73A4D73D206F39CB00DDAE4C /* ContactsDB.plist */; };
+		73A4D740206F3A0800DDAE4C /* PlistLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4D73F206F3A0800DDAE4C /* PlistLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		73A4D732206F35BC00DDAE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73A4D735206F35BC00DDAE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73A4D737206F35BC00DDAE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A4D73D206F39CB00DDAE4C /* ContactsDB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContactsDB.plist; sourceTree = "<group>"; };
+		73A4D73F206F3A0800DDAE4C /* PlistLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 				73A4D729206F35BC00DDAE4C /* AppDelegate.swift */,
 				73A4D72B206F35BC00DDAE4C /* MasterViewController.swift */,
 				73A4D72D206F35BC00DDAE4C /* DetailViewController.swift */,
+				73A4D73F206F3A0800DDAE4C /* PlistLoader.swift */,
 				73A4D72F206F35BC00DDAE4C /* Main.storyboard */,
 				73A4D732206F35BC00DDAE4C /* Assets.xcassets */,
 				73A4D734206F35BC00DDAE4C /* LaunchScreen.storyboard */,
+				73A4D73D206F39CB00DDAE4C /* ContactsDB.plist */,
 				73A4D737206F35BC00DDAE4C /* Info.plist */,
 			);
 			path = Contacts;
@@ -128,6 +134,7 @@
 				73A4D736206F35BC00DDAE4C /* LaunchScreen.storyboard in Resources */,
 				73A4D733206F35BC00DDAE4C /* Assets.xcassets in Resources */,
 				73A4D731206F35BC00DDAE4C /* Main.storyboard in Resources */,
+				73A4D73E206F39CC00DDAE4C /* ContactsDB.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				73A4D72E206F35BC00DDAE4C /* DetailViewController.swift in Sources */,
 				73A4D72C206F35BC00DDAE4C /* MasterViewController.swift in Sources */,
 				73A4D72A206F35BC00DDAE4C /* AppDelegate.swift in Sources */,
+				73A4D740206F3A0800DDAE4C /* PlistLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

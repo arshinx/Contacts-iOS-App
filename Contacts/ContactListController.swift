@@ -35,6 +35,8 @@ class ContactListController: UITableViewController {
         // Create re-usable cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath)
         let contact = contacts[indexPath.row]
+        
+        // Optional - fails silently & gracefully if not permitted
         cell.textLabel?.text = contact.firstName
         cell.detailTextLabel?.text = contact.lastName
         cell.imageView?.image = contact.image

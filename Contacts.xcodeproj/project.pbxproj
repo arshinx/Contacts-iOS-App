@@ -16,6 +16,7 @@
 		73A4D73E206F39CC00DDAE4C /* ContactsDB.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73A4D73D206F39CB00DDAE4C /* ContactsDB.plist */; };
 		73A4D740206F3A0800DDAE4C /* PlistLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4D73F206F3A0800DDAE4C /* PlistLoader.swift */; };
 		73A4D742206F3A7D00DDAE4C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4D741206F3A7D00DDAE4C /* Contact.swift */; };
+		73A4D744206F3B1200DDAE4C /* ContactListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4D743206F3B1200DDAE4C /* ContactListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		73A4D73D206F39CB00DDAE4C /* ContactsDB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContactsDB.plist; sourceTree = "<group>"; };
 		73A4D73F206F3A0800DDAE4C /* PlistLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistLoader.swift; sourceTree = "<group>"; };
 		73A4D741206F3A7D00DDAE4C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		73A4D743206F3B1200DDAE4C /* ContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				73A4D72D206F35BC00DDAE4C /* DetailViewController.swift */,
 				73A4D73F206F3A0800DDAE4C /* PlistLoader.swift */,
 				73A4D741206F3A7D00DDAE4C /* Contact.swift */,
+				73A4D743206F3B1200DDAE4C /* ContactListController.swift */,
 				73A4D72F206F35BC00DDAE4C /* Main.storyboard */,
 				73A4D732206F35BC00DDAE4C /* Assets.xcassets */,
 				73A4D734206F35BC00DDAE4C /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 				73A4D72C206F35BC00DDAE4C /* MasterViewController.swift in Sources */,
 				73A4D742206F3A7D00DDAE4C /* Contact.swift in Sources */,
 				73A4D72A206F35BC00DDAE4C /* AppDelegate.swift in Sources */,
+				73A4D744206F3B1200DDAE4C /* ContactListController.swift in Sources */,
 				73A4D740206F3A0800DDAE4C /* PlistLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

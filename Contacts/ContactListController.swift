@@ -42,5 +42,10 @@ class ContactListController: UITableViewController {
         cell.imageView?.image = contact.image
         return cell
     }
+    
+    // Editor on cell
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
+        return .none
+    }
 
 }

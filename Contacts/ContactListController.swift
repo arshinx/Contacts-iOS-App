@@ -33,5 +33,4 @@ class ContactListController: UITableViewController {
         return 0
     }
 
-    
 }

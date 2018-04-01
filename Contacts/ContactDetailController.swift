@@ -35,6 +35,11 @@ class ContactDetailController: UITableViewController {
         
         // Update Labels
         phoneLabel.text = contact.phone
+        emailLabel.text = contact.email
+        streetLabel.text = contact.street
+        cityLabel.text = contact.city
+        stateLabel.text = contact.state
+        zipLabel.text = contact.zip
     }
 
 

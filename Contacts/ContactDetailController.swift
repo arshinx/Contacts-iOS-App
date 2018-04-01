@@ -8,6 +8,12 @@
 
 import UIKit
 
+protocol contactDetailControllerDelegate: class {
+    
+    func didMarkAsFavoriteContact(_ contact: Contact)
+    
+}
+
 class ContactDetailController: UITableViewController {
     
     var contact: Contact?

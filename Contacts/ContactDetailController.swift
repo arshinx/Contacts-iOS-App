@@ -29,6 +29,7 @@ class ContactDetailController: UITableViewController {
     @IBOutlet weak var profileView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
+    weak var delegate: contactDetailControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()

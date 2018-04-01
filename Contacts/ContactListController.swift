@@ -74,8 +74,8 @@ class ContactListController: UITableViewController {
         contactCell.nameLabel.text = contact.firstName + " " + contact.lastName
         contactCell.cityLabel.text = contact.city
         
-        if contactCell.isFavorite {
-            
+        if contact.isFavorite {
+            contactCell.favoriteIcon.image = #imageLiteral(resourceName: "Star")
         }
         
         return contactCell

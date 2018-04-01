@@ -89,6 +89,10 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
+                                    <outlet property="cityLabel" destination="OSY-As-vb7" id="NqG-YC-dtK"/>
+                                    <outlet property="favoriteIcon" destination="gPL-5w-hPt" id="e7a-eJ-qMx"/>
+                                    <outlet property="nameLabel" destination="acI-lq-Car" id="ZNV-dJ-JoR"/>
+                                    <outlet property="profileImageView" destination="oNk-1k-89f" id="Vlr-hv-VZc"/>
                                     <segue destination="vC3-pB-5Vb" kind="showDetail" identifier="showContact" id="6S0-TO-JiA"/>
                                 </connections>
                             </tableViewCell>

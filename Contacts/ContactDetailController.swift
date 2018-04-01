@@ -20,6 +20,9 @@ class ContactDetailController: UITableViewController {
     @IBOutlet weak var stateLabel: UILabel!
     @IBOutlet weak var zipLabel: UILabel!
     
+    @IBOutlet weak var profileView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +38,9 @@ class ContactDetailController: UITableViewController {
         guard let contact = contact else { return }
         
         // Update Labels
+        profileView.image = contact.image
+        nameLabel.text = contact.firstName + " " + contact.lastName
+        
         phoneLabel.text = contact.phone
         emailLabel.text = contact.email
         streetLabel.text = contact.street

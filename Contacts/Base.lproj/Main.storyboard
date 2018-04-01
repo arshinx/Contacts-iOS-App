@@ -327,7 +327,9 @@
                     <connections>
                         <outlet property="cityLabel" destination="PFg-h9-eip" id="rr0-tc-WBy"/>
                         <outlet property="emailLabel" destination="fnI-0b-IYy" id="FPk-mo-ibe"/>
+                        <outlet property="nameLabel" destination="Wh6-8p-6wh" id="WGw-0T-SBM"/>
                         <outlet property="phoneLabel" destination="uGF-fH-f3U" id="ybo-fh-2Nm"/>
+                        <outlet property="profileView" destination="jdp-3k-2td" id="ze3-3p-s8a"/>
                         <outlet property="stateLabel" destination="pqW-9R-BZu" id="N9P-dc-z2N"/>
                         <outlet property="streetLabel" destination="c04-gw-Scx" id="cGa-TV-v7M"/>
                         <outlet property="zipLabel" destination="RE4-mq-Gl0" id="Mhm-GR-b4J"/>

@@ -52,6 +52,14 @@ class ContactListController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        // Show Contact Segue
+        if segue.identifier == "showContact" {
+            
+            // Unwrap indexpath
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let contact = contacts[indexPath.row]
+            }
+        }
     }
 
 }

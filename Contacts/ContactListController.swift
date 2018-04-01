@@ -58,6 +58,9 @@ class ContactListController: UITableViewController {
             // Unwrap indexpath
             if let indexPath = tableView.indexPathForSelectedRow {
                 let contact = contacts[indexPath.row]
+                
+                guard let navigationController = segue.destination as? UINavigationController, let contactDetailController = navigationController.topViewController as? ContactDetailController else { return }
+                
             }
         }
     }

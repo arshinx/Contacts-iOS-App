@@ -11,6 +11,15 @@ import UIKit
 class ContactDetailController: UITableViewController {
     
     var contact: Contact?
+    
+    // Labels
+    @IBOutlet weak var phoneLabel: UILabel!
+    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var streetLabel: UILabel!
+    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var stateLabel: UILabel!
+    @IBOutlet weak var zipLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

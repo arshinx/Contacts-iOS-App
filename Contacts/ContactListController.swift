@@ -11,7 +11,7 @@ import UIKit
 extension Contact {
     
     var firstLetterForSort: String {
-        firstName.characters.first!
+        String(firstName.characters.first!).uppercased()
     }
 }
 

@@ -151,6 +151,26 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hfs-ll-At3" id="whD-OH-I39">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bT5-yi-hFk">
+                                                    <rect key="frame" x="16" y="12" width="42" height="20"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello@arshin.me" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnI-0b-IYy">
+                                                    <rect key="frame" x="235" y="12" width="124" height="20"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="bT5-yi-hFk" firstAttribute="leading" secondItem="whD-OH-I39" secondAttribute="leadingMargin" id="4Fz-gZ-w5j"/>
+                                                <constraint firstItem="fnI-0b-IYy" firstAttribute="centerY" secondItem="whD-OH-I39" secondAttribute="centerY" id="oO6-Xl-piM"/>
+                                                <constraint firstItem="bT5-yi-hFk" firstAttribute="centerY" secondItem="whD-OH-I39" secondAttribute="centerY" id="oey-iT-c78"/>
+                                                <constraint firstItem="fnI-0b-IYy" firstAttribute="trailing" secondItem="whD-OH-I39" secondAttribute="trailingMargin" id="pSe-wa-fKg"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>

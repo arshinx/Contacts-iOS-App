@@ -72,7 +72,8 @@ class ContactListController: UITableViewController {
         // Note: Use of Optional - fails silently & gracefully if not permitted
         contactCell.profileImageView.image = contact.image
         contactCell.nameLabel.text = contact.firstName + " " + contact.lastName
-        return cell
+        contactCell.cityLabel.text = contact.city
+        return contactCell
     }
     
     // MARK: - Table View Delegate

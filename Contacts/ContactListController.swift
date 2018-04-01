@@ -61,6 +61,8 @@ class ContactListController: UITableViewController {
                 
                 guard let navigationController = segue.destination as? UINavigationController, let contactDetailController = navigationController.topViewController as? ContactDetailController else { return }
                 
+                // Assign to contact property
+                contactDetailController.contact = contact
             }
         }
     }

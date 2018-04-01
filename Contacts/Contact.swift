@@ -19,7 +19,7 @@ struct Contact {
     let state: String
     let zip: String
     let image: UIImage?
-    var favorite: Bool
+    var isFavorite: Bool
 }
 
 extension Contact {
@@ -34,6 +34,7 @@ extension Contact {
         static let state = "state"
         static let zip = "zip"
         static let image = "avatarName"
+        
     }
     
     init?(dictionary: [String: String]) {

@@ -73,6 +73,11 @@ class ContactListController: UITableViewController {
         contactCell.profileImageView.image = contact.image
         contactCell.nameLabel.text = contact.firstName + " " + contact.lastName
         contactCell.cityLabel.text = contact.city
+        
+        if contactCell.isFavorite {
+            
+        }
+        
         return contactCell
     }
     

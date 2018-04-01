@@ -56,9 +56,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="341" height="79.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oNk-1k-89f">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oNk-1k-89f">
                                             <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acI-lq-Car">
                                             <rect key="frame" x="88" y="11" width="73" height="21"/>
@@ -82,8 +81,10 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="gPL-5w-hPt" secondAttribute="trailing" constant="8" id="4ey-pa-wCD"/>
+                                        <constraint firstItem="OSY-As-vb7" firstAttribute="leading" secondItem="oNk-1k-89f" secondAttribute="trailing" constant="8" id="L93-WV-xJt"/>
                                         <constraint firstItem="gPL-5w-hPt" firstAttribute="centerY" secondItem="37f-cq-3Eg" secondAttribute="centerY" id="OpO-m3-VCI"/>
                                         <constraint firstItem="OSY-As-vb7" firstAttribute="top" secondItem="acI-lq-Car" secondAttribute="bottom" constant="8" id="PX2-BR-p9k"/>
+                                        <constraint firstItem="acI-lq-Car" firstAttribute="leading" secondItem="oNk-1k-89f" secondAttribute="trailing" constant="8" id="VqI-aZ-ani"/>
                                         <constraint firstItem="OSY-As-vb7" firstAttribute="top" secondItem="acI-lq-Car" secondAttribute="bottom" constant="16" id="jym-bJ-jnv"/>
                                     </constraints>
                                 </tableViewCellContentView>

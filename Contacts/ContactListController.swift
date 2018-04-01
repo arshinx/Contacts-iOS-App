@@ -47,6 +47,10 @@ class ContactListController: UITableViewController {
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return sectionTitles[section]
     }
+    
+    override func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+        return sectionTitles
+    }
 
     // sections = 1
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -85,7 +89,7 @@ class ContactListController: UITableViewController {
             
             // Unwrap indexpath
             if let indexPath = tableView.indexPathForSelectedRow {
-                let contact = contacts[indexPath.row]
+                let contact = sections[indexPath.section][indexPath.row]
                 
                 guard let navigationController = segue.destination as? UINavigationController, let contactDetailController = navigationController.topViewController as? ContactDetailController else { return }
                 

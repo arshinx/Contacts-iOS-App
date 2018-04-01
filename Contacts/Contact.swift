@@ -62,7 +62,7 @@ extension Contact {
             image = nil
         }
         
-        favorite = false
+        isFavorite = false
     }
 }
 

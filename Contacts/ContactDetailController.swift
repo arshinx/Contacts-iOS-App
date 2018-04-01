@@ -30,7 +30,11 @@ class ContactDetailController: UITableViewController {
     // Configures View
     func configureView() {
         
+        // Unwrap contact
+        guard let contact = contact else { return }
         
+        // Update Labels
+        phoneLabel.text = contact.phone
     }
 
 

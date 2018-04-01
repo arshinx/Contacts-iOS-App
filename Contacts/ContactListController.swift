@@ -65,13 +65,13 @@ class ContactListController: UITableViewController {
     // call for each row
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Create re-usable cell
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath)
+        guard let contactCell = tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath) as? ContactCell else { fatalError() }
         let contact = sections[indexPath.section][indexPath.row]
         
-        // Optional - fails silently & gracefully if not permitted
-        cell.textLabel?.text = contact.firstName
-        cell.detailTextLabel?.text = contact.lastName
-        cell.imageView?.image = contact.image
+        // Cell Properties
+        // Note: Use of Optional - fails silently & gracefully if not permitted
+        contactCell.profileImageView.image = contact.image
+        contactCell.nameLabel.text = contact.firstName + " " + contact.lastName
         return cell
     }
     

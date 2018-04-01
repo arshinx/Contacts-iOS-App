@@ -18,6 +18,7 @@
 		73A4D742206F3A7D00DDAE4C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4D741206F3A7D00DDAE4C /* Contact.swift */; };
 		73A4D744206F3B1200DDAE4C /* ContactListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4D743206F3B1200DDAE4C /* ContactListController.swift */; };
 		73A4D746206F3B4000DDAE4C /* ContactDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4D745206F3B4000DDAE4C /* ContactDetailController.swift */; };
+		73A4D748207097DE00DDAE4C /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4D747207097DE00DDAE4C /* ContactCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		73A4D741206F3A7D00DDAE4C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		73A4D743206F3B1200DDAE4C /* ContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListController.swift; sourceTree = "<group>"; };
 		73A4D745206F3B4000DDAE4C /* ContactDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailController.swift; sourceTree = "<group>"; };
+		73A4D747207097DE00DDAE4C /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				73A4D741206F3A7D00DDAE4C /* Contact.swift */,
 				73A4D743206F3B1200DDAE4C /* ContactListController.swift */,
 				73A4D745206F3B4000DDAE4C /* ContactDetailController.swift */,
+				73A4D747207097DE00DDAE4C /* ContactCell.swift */,
 				73A4D72F206F35BC00DDAE4C /* Main.storyboard */,
 				73A4D732206F35BC00DDAE4C /* Assets.xcassets */,
 				73A4D734206F35BC00DDAE4C /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A4D748207097DE00DDAE4C /* ContactCell.swift in Sources */,
 				73A4D72E206F35BC00DDAE4C /* DetailViewController.swift in Sources */,
 				73A4D72C206F35BC00DDAE4C /* MasterViewController.swift in Sources */,
 				73A4D746206F3B4000DDAE4C /* ContactDetailController.swift in Sources */,

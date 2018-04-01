@@ -61,6 +61,7 @@ class ContactDetailController: UITableViewController {
     
     @IBAction func markAsFavorite(_ sender: Any) {
         
+        guard let contact = contact else { return }
         
     }
     

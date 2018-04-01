@@ -51,6 +51,12 @@ class ContactDetailController: UITableViewController {
 
 
     // MARK: - Table view data source
+    
+    @IBAction func markAsFavorite(_ sender: Any) {
+        
+        
+    }
+    
 
 
 }

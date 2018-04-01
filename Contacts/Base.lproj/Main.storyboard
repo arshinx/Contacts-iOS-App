@@ -281,6 +281,30 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection id="Hhg-9j-JK2">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="phR-2P-2Yv">
+                                        <rect key="frame" x="0.0" y="448" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="phR-2P-2Yv" id="TWC-gW-cSV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1F-6j-OCw">
+                                                    <rect key="frame" x="8" y="6" width="110" height="30"/>
+                                                    <state key="normal" title="Mark as favorite"/>
+                                                    <connections>
+                                                        <action selector="markAsFavorite:" destination="qfO-yJ-dv9" eventType="touchUpInside" id="TDy-JA-iTP"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="X1F-6j-OCw" firstAttribute="leading" secondItem="TWC-gW-cSV" secondAttribute="leading" constant="8" id="Cr5-BZ-mZT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="qfO-yJ-dv9" id="K75-Le-c0v"/>

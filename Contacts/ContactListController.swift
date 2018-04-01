@@ -35,6 +35,7 @@ extension ContactsSource {
 class ContactListController: UITableViewController {
     
     var sections = ContactsSource.sectionedContacts
+    let sectionTitles = ContactsSource.sortedUniqueFirstLetters
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +44,9 @@ class ContactListController: UITableViewController {
 
     // MARK: - Table view data source
     
-    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return sectionTitles[section]
+    }
 
     // sections = 1
     override func numberOfSections(in tableView: UITableView) -> Int {

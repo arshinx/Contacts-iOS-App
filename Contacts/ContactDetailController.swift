@@ -26,6 +26,12 @@ class ContactDetailController: UITableViewController {
 
         
     }
+    
+    // Configures View
+    func configureView() {
+        
+        
+    }
 
 
     // MARK: - Table view data source

@@ -75,6 +75,11 @@ class ContactListController: UITableViewController {
         return cell
     }
     
+    // MARK: - Table View Delegate
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80 // height for each cell
+    }
+    
     // Editor on cell
     override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
         return .none

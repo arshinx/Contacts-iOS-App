@@ -8,6 +8,13 @@
 
 import UIKit
 
+extension Contact {
+    
+    var firstLetterForSort: String {
+        firstName.characters.first!
+    }
+}
+
 class ContactListController: UITableViewController {
     
     var contacts = ContactsSource.contacts
